@@ -63,7 +63,10 @@ endif
 set undolevels=1000 "maximum number of changes that can be undone
 
 " Color
-colorscheme vibrantink
+colorscheme dracula_bold
+let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
 
 augroup Drakefile
   au!

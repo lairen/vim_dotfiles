@@ -8,6 +8,8 @@ else
   call plug#begin('~/.vim/plugged')
 endif
 
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'flazz/vim-colorschemes',
 Plug 'akhaku/vim-java-unused-imports'
 Plug 'aklt/plantuml-syntax'
 Plug 'arthurxavierx/vim-caser'
